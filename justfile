@@ -1,5 +1,5 @@
 build:
-    yarn parcel build src/index.pug 
+    yarn parcel build --public-url ./ src/index.pug 
 
 install:
     yarn install --frozen-lockfile
